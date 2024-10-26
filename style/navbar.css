@@ -61,3 +61,23 @@ header {
 
 	border-radius: 10%;
 }
+
+@media only screen and (max-width: 600px) {
+
+	header {
+
+		position: sticky;
+		top: 0;
+	}
+
+	#nav-buttons {
+
+		background-color: red;
+		display: none;
+	}
+
+	#nav-logo {
+
+		padding-left: 15px;
+	}
+}
